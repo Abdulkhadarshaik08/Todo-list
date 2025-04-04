@@ -1,0 +1,275 @@
+
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+padding: 10px;
+font-size: 10px;
+font-style: italic;
+}
+
+  .background-container {
+    background-image: url('https://vaarivana.com/wp-content/uploads/2023/05/Unveiling_the_Splendor.jpg.webp'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  
+  .title-box {
+    background-color: white; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  
+  .title-box h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .single-property {
+    font-size: 30px;
+    color: #FFF;
+  }
+
+  .main-bar {
+    padding: 20px;
+    margin: 25px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .full-villa {
+   
+    width: 65%;
+    height: 400px;
+  }
+
+  .list-view {
+    border: 1px;
+    /* box-shadow: 20px; */
+    border-radius: 3px;
+    margin: 0 10px 0 30px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+   
+  }
+
+  .list-view-midbar {
+    border: 1px;
+    border-radius: 3px;
+    width: 27%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 35px;
+  }
+
+  .midbar-img {
+    width: 43%;
+  }
+
+  .title-group {
+    padding: 0 10px;
+  }
+
+  .single-group{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .font-desc {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+  }
+
+  .font-title {
+    font-weight: 600;
+  }
+
+  .apartment-title {
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+
+  .data {
+    padding: 20px;
+    margin: 25px;
+    width: 65%;
+  }
+
+  .street {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .changepadding {
+    padding-top: 10px;
+  }
+
+  
+.accordion {
+   
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  
+  .accordion-header {
+    padding: 15px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e5e5e5;
+  }
+  
+  
+  .accordion-content {
+    max-height: 0; 
+    overflow: hidden;
+    padding: 0 15px;
+    background-color: #fafafa;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .accordion-content p {
+    margin: 10px 0; 
+  }
+  
+ 
+  .accordion-content.active {
+    max-height: 200px; 
+    padding: 15px;
+  }
+
+  .accordion-header.active {
+    
+    color: orangered; 
+  }
+  
+  .property-container {
+    background-color: whitesmoke;
+    padding: 50px 45px;
+  }
+
+  .best-deal {
+    color:lightcoral;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .right-deal {
+
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    
+  }
+
+  .header-title {
+    flex: 1; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    
+  }
+
+  .header-tabs {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .tab {
+    padding: 10px 15px;
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .tab:hover {
+    background-color: orangered;
+    color: white;
+  }
+
+  .tab.active {
+    background-color: black;
+    color: white;
+  }
+
+  
+  .property-content {
+    width: 100%;
+    padding: 40px 0; 
+    margin-top: 10px;
+    display: none;
+  }
+
+  .property-content.active {
+    display: block; 
+  }
+
+  .mid-bar {
+    display: flex;
+  }
+
+  .para {
+    width: 30%;
+    padding: 0 30px 0 40px ;
+  }
+
+  .midbar-pic {
+    width: 100%;
+  }
+
+
+  .display-flex {
+    display: flex;
+  }
+
+  .pr-10 {
+    padding-right: 10px;
+  }
+
